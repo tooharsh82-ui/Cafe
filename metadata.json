@@ -1,0 +1,6 @@
+{
+  "name": "The Coffee Clock",
+  "description": "Premium Café & Restaurant in Arrah, Bihar. Sip the moment, every second counts. Explore our menu of gourmet coffees, authentic teas, pizzas, burgers, momos, and more, and make a real-time table reservation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

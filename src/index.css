@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-display: "Cinzel", serif;
+
+  --color-brand-primary: #C5A880; /* Warm champagne gold */
+  --color-brand-dark: #1E1A17;    /* Elegant charcoal dark */
+  --color-brand-light: #FAF7F2;   /* Premium creamy background */
+  --color-brand-accent: #E07A5F;  /* Coral terracotta accent for high attention elements */
+}
+
+/* Custom styles for smooth experience */
+html {
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #C5A880;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A4865E;
+}
